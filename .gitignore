@@ -1,0 +1,16 @@
+# Environment
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Data files
+data/structured_db/*.db
+data/vector_db/*/*.bin
+data/vector_db/*/*.pkl
+
+# Keep directory structure
+!data/*/
+!data/*/.gitkeep
