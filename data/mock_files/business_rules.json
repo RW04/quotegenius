@@ -1,0 +1,98 @@
+{
+  "standard_rules": [
+    {
+      "rule_id": "std-1",
+      "rule_type": "general",
+      "rule_description": "Standard markup for raw materials is 15-20% depending on market volatility."
+    },
+    {
+      "rule_id": "std-2",
+      "rule_type": "general",
+      "rule_description": "Labor rates must include 25% overhead for benefits and facility costs."
+    },
+    {
+      "rule_id": "std-3",
+      "rule_type": "general",
+      "rule_description": "Quotes over $100,000 require senior management approval before submission."
+    },
+    {
+      "rule_id": "std-4",
+      "rule_type": "general",
+      "rule_description": "Projects with timelines exceeding 3 months require milestone payment terms."
+    },
+    {
+      "rule_id": "std-5",
+      "rule_type": "general",
+      "rule_description": "Add contingency of 10% for projects with high technical complexity."
+    },
+    {
+      "rule_id": "std-6",
+      "rule_type": "general",
+      "rule_description": "Rush orders (delivery less than standard lead time) include 15% premium."
+    },
+    {
+      "rule_id": "std-7",
+      "rule_type": "general",
+      "rule_description": "First-time customer discounts capped at 5% of total quote value."
+    },
+    {
+      "rule_id": "std-8",
+      "rule_type": "general",
+      "rule_description": "Volume discounts apply on material costs: 5% for orders >$50K, 8% for orders >$100K."
+    },
+    {
+      "rule_id": "std-9",
+      "rule_type": "general",
+      "rule_description": "Quotes are valid for 30 days unless otherwise specified."
+    },
+    {
+      "rule_id": "std-10",
+      "rule_type": "general",
+      "rule_description": "Minimum order value is $5,000 for new customers, $2,500 for existing customers."
+    }
+  ],
+  "customer_rules": [
+    {
+      "rule_id": "cust-rule-1",
+      "rule_type": "customer-specific",
+      "customer_id": "cust-101",
+      "rule_description": "Aerospace Dynamics has negotiated a 5% volume discount on orders over $100,000."
+    },
+    {
+      "rule_id": "cust-rule-2",
+      "rule_type": "customer-specific",
+      "customer_id": "cust-101",
+      "rule_description": "Aerospace Dynamics requires dedicated quality assurance staff on projects over $200,000."
+    },
+    {
+      "rule_id": "cust-rule-3",
+      "rule_type": "customer-specific",
+      "customer_id": "cust-102",
+      "rule_description": "Industrial Solutions Inc. has 45-day payment terms instead of standard 30-day."
+    },
+    {
+      "rule_id": "cust-rule-4",
+      "rule_type": "customer-specific",
+      "customer_id": "cust-103",
+      "rule_description": "MedTech Innovations requires ISO 13485 certification documentation with all quotes."
+    },
+    {
+      "rule_id": "cust-rule-5",
+      "rule_type": "customer-specific",
+      "customer_id": "cust-103",
+      "rule_description": "MedTech Innovations receives priority scheduling, adjust lead times down by 15%."
+    },
+    {
+      "rule_id": "cust-rule-6",
+      "rule_type": "customer-specific",
+      "customer_id": "cust-104",
+      "rule_description": "Precision Manufacturing has negotiated fixed pricing on stainless steel components through Q2 2025."
+    },
+    {
+      "rule_id": "cust-rule-7",
+      "rule_type": "customer-specific",
+      "customer_id": "cust-105",
+      "rule_description": "EnergyTech Systems requires detailed sustainability documentation for all materials."
+    }
+  ]
+}
