@@ -2,7 +2,7 @@
 
 AI-powered manufacturing quote system that uses intelligent agents to generate accurate, competitive quotes. This project demonstrates a multi-agent LLM architecture for optimizing quoting processes in manufacturing.
 
-![Architecture Diagram](static/architecture-diagram.md)
+![Architecture Diagram](static/architecture-diagram.png)
 
 ## Features
 
